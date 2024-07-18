@@ -32,6 +32,7 @@ body {
 .btn {
   border-radius: 42px;
   padding: 16px 40px;
+  border: none;
   background-color: var(--btnColor);
   color: var(--lightColor);
   font-family: var(--font-family);
@@ -210,3 +211,74 @@ body {
   left: 20px;
 }
 /* Header section styles ended */
+
+/* Responsive header section started */
+@media screen and (max-width: 576px) {
+  /* Header section styles started */
+  /* navbar */
+  .brand_name {
+    margin-left: 20px;
+  }
+  .main_menu {
+    display: none;
+  }
+  .menu_icon {
+    display: block;
+    margin-right: 20px;
+    color: var(--lightColor);
+    font-size: 1.5rem;
+  }
+
+  /* banner section */
+  #banner_section {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    row-gap: 45px;
+  }
+  .banner_content {
+    width: 100%;
+  }
+  .banner_title {
+    font-size: 2.25rem;
+  }
+  .banner_btn1,
+  .banner_btn2 {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+
+  /* banner image */
+  .banner_img {
+    width: 100%;
+    text-align: center;
+  }
+  .banner_img img {
+    width: 100%;
+  }
+
+  /* hover buttons on the image */
+  .hover_button {
+    padding: 10px 15px;
+  }
+
+  .hover_button p {
+    font-size: 0.57rem;
+    margin-top: 1px;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hb1 {
+    top: 80px;
+    right: 0px;
+  }
+  .hb2 {
+    top: 250px;
+    left: 40px;
+  }
+}
+/* Responsive header section started */
