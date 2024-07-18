@@ -40,3 +40,173 @@ body {
   line-height: 122%;
   transition: 0.3s;
 }
+
+/* Header section styles started */
+#header_section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.header_container {
+  width: 100%;
+  padding-top: 60px;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    rgba(17, 17, 17, 0),
+    rgba(119, 119, 119, 0.25),
+    rgba(17, 17, 17, 0)
+  );
+}
+
+/* navbar */
+#navbar {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand_name {
+  font-style: italic;
+  font-weight: var(--interExtraBold);
+  font-size: 2.25rem;
+  line-height: 120%;
+  color: var(--btnColor);
+}
+
+.main_menu {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+}
+
+.menu_list {
+  list-style: none;
+  border-radius: 46px;
+  padding: 8px 20px;
+}
+
+.menu_link {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--lightColor);
+}
+
+.menu_list,
+.menu_link {
+  transition: 0.3s;
+}
+
+.menu_list:hover {
+  background-color: var(--btnColor);
+}
+.menu_list:hover .menu_link {
+  font-weight: var(--interSemiBold);
+}
+
+.menu_icon {
+  display: none;
+}
+
+/* banner section */
+#banner_section {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 75px;
+}
+
+.banner_content {
+  width: 50%;
+}
+
+.banner_title {
+  font-weight: var(--interBlack);
+  font-size: 4.9rem;
+  line-height: 100%;
+  color: var(--lightColor);
+}
+.banner_title span {
+  font-family: "Miama", sans-serif;
+  font-weight: var(--interRegular);
+}
+.banner_description {
+  margin: 25px 0px;
+}
+
+.banner_btn1:hover {
+  background-color: var(--lightColor);
+  color: var(--btnColor);
+}
+.banner_btn2 {
+  border: 1px solid var(--lightColor);
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 15px;
+}
+.banner_btn2:hover {
+  border: 1px solid var(--btnColor);
+  color: var(--btnColor);
+}
+
+/* banner image */
+.banner_img {
+  width: 50%;
+  text-align: right;
+}
+.banner_img img {
+  height: 100%;
+}
+
+/* hover buttons on the image */
+.hover_button_s {
+  text-align: left;
+  position: relative;
+}
+.hover_button {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  padding: 20px;
+  position: absolute;
+}
+.hover_button h3 {
+  font-weight: var(--interBlack);
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: var(--lightColor);
+}
+.hover_button p {
+  color: rgba(239, 237, 232, 0.65);
+  margin-top: 5px;
+}
+
+.circle_d {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--btnColor);
+}
+
+.hb1 {
+  top: 120px;
+  right: -80px;
+}
+.hb2 {
+  top: 400px;
+  left: 20px;
+}
+/* Header section styles ended */
