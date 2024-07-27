@@ -720,4 +720,61 @@ body {
     gap: 50px;
     flex-direction: column;
   }
+
+  /* BMI Calculator section styles started */
+  #bmi_clc_section {
+    padding-top: 35px;
+  }
+
+  .bmi_content {
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+
+  .bmi_content_title {
+    font-size: 2rem;
+  }
+
+  .bmi_container {
+    padding: 35px 20px;
+  }
+  .bmi_container2 {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .clc_chart h3 {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .bmi_table th,
+  .bmi_table td {
+    border: 1px solid var(--darkLightColor);
+    padding: 10px 15px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  /* Calculate your BMI */
+  .bmi_form_title {
+    font-size: 1rem;
+  }
+  .bmi_form {
+    width: 100%;
+  }
+  .input_field {
+    gap: 10px;
+  }
+  .input_field input,
+  .sex {
+    width: 50%;
+  }
+  .input_field input,
+  .sex,
+  .activity_factor {
+    padding: 12px 15px;
+  }
 }
