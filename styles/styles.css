@@ -12,6 +12,7 @@
   --lightColor: rgba(255, 255, 255, 1);
   --darkLightColor: rgba(255, 255, 255, 0.5);
   --darkColor: rgba(0, 0, 0, 1);
+  --darkColor2: rgba(34, 34, 34, 1);
   --btnColor: rgba(230, 83, 60, 1);
 }
 
@@ -262,6 +263,180 @@ body {
 }
 /* Habits section styles ended */
 
+/* Extra mile section styles started */
+#extra_mile_section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 100px;
+  box-sizing: border-box;
+  background-color: var(--darkColor);
+}
+
+.extra_mile_container {
+  border-radius: 18px;
+  width: 1060px;
+  height: 370px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: var(--darkColor2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extra_mile_content {
+  width: 440px;
+}
+.extra_mile_content h2 {
+  font-weight: var(--interBlack);
+  font-size: 3rem;
+  line-height: 120%;
+  color: var(--lightColor);
+}
+.extra_mile_content p {
+  margin: 14px 0 25px 0;
+  line-height: 170%;
+}
+
+.extra_mile_img {
+  height: 100%;
+}
+
+.extra_mile_img img {
+  border-radius: 18px;
+  height: 100%;
+}
+/* Extra mile section styles ended */
+
+/* Team section styles started */
+#team_section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0px;
+  background-color: var(--darkColor);
+}
+.team_content {
+  max-width: 670px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team_content h2 {
+  font-weight: var(--interBlack);
+  font-size: 3rem;
+  line-height: 120%;
+  color: var(--lightColor);
+  margin-bottom: 10px;
+}
+
+.team_items {
+  width: 1060px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background-color: var(--darkColor2);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 15px;
+}
+.team_card {
+  position: relative;
+  width: 326px;
+  height: 272px;
+}
+
+.team_card img {
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+}
+
+.team_card_content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.team_card_content h3 {
+  font-weight: var(--interBlack);
+  font-size: 1.25rem;
+  line-height: 120%;
+  color: var(--lightColor);
+}
+/* Team section styles started */
+
+/* Footer section styles started */
+#footer_section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 70px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+}
+
+.footer_container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer_box1 {
+  width: 40%;
+}
+.footer_box1 h3 {
+  font-style: italic;
+  font-weight: var(--interExtraBold);
+  font-size: 4.3rem;
+  line-height: 120%;
+  color: var(--btnColor);
+  margin-bottom: 20px;
+}
+
+.footer_box2 {
+  width: 50%;
+  display: flex;
+  gap: 150px;
+}
+
+.footer_box2 h4 {
+  font-weight: var(--interBold);
+  font-size: 2rem;
+  line-height: 120%;
+  color: var(--lightColor);
+  margin-bottom: 35px;
+}
+
+.footer_list {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.footer_link {
+  text-decoration: none;
+  font-weight: var(--interRegular);
+  font-size: 1.45rem;
+  line-height: 120%;
+  color: var(--darkLightColor);
+}
+
+.copy_right {
+  padding: 35px 0;
+}
+
+.copy_right p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* Footer section styles ended */
+
 /* Responsive header section started */
 @media screen and (max-width: 576px) {
   /* Header section styles started */
@@ -332,21 +507,76 @@ body {
   }
 
   /* Habits section styles started */
-#habits_section {
-  padding: 50px 20px 0;
-}
+  #habits_section {
+    padding: 50px 20px 0;
+  }
 
-.habits_content h2 {
-  font-size: 2rem;
-}
+  .habits_content h2 {
+    font-size: 2rem;
+  }
 
-.habits_items {
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 40px;
-}
+  .habits_items {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+  }
 
+  /* Extra mile section styles started */
+  #extra_mile_section {
+    width: 100%;
+    padding: 60px 20px 0;
+  }
+  .extra_mile_container {
+    row-gap: 30px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .extra_mile_content {
+    width: 100%;
+  }
+  .extra_mile_content button {
+    width: 100%;
+  }
+  .extra_mile_content h2 {
+    font-size: 2rem;
+  }
+  .extra_mile_img {
+    width: 100%;
+  }
+  .extra_mile_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Team section styles started */
+  #team_section {
+    max-width: 100%;
+    padding: 65px 20px 65px;
+  }
+  .team_content {
+    max-width: 100%;
+  }
+
+  .team_content h2 {
+    font-size: 2rem;
+  }
+
+  .team_items {
+    width: 100%;
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+  }
+  .team_card {
+    width: 100%;
+    height: auto;
+  }
+
+  .team_card_content {
+    bottom: 10px;
+    left: 15px;
+  }
 }
 /* Responsive header section started */
