@@ -578,5 +578,28 @@ body {
     bottom: 10px;
     left: 15px;
   }
+
+  /* footer section */
+  #footer_section {
+    padding-top: 30px;
+  }
+
+  .footer_container {
+    padding: 20px;
+  }
+
+  .footer_content {
+    flex-direction: column;
+  }
+
+  .footer_box1 {
+    width: 100%;
+  }
+
+  .footer_box2 {
+    width: 100%;
+    gap: 50px;
+    flex-direction: column;
+  }
 }
 /* Responsive header section started */
