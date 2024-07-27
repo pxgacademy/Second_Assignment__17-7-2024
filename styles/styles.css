@@ -309,6 +309,125 @@ body {
 }
 /* Extra mile section styles ended */
 
+/* BMI Calculator section styles started */
+#bmi_clc_section {
+  background-color: var(--darkColor);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 85px;
+}
+
+.bmi_content {
+  max-width: 670px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+
+.bmi_content_title {
+  font-weight: var(--interBlack);
+  font-size: 3rem;
+  line-height: 120%;
+  color: var(--lightColor);
+  margin-bottom: 12px;
+}
+
+.bmi_container {
+  background-color: var(--darkColor2);
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+.bmi_container2 {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.clc_chart h3 {
+  font-weight: var(--interBlack);
+  font-size: 1.75rem;
+  line-height: 120%;
+  color: var(--lightColor);
+  margin-bottom: 50px;
+}
+.bmi_table {
+  border: 1px solid var(--lightColor);
+  border-collapse: collapse;
+}
+.bmi_table tr {
+}
+.bmi_table th {
+  text-align: left;
+  color: var(--lightColor);
+  font-size: 1rem;
+}
+.bmi_table th,
+.bmi_table td {
+  border: 2px solid var(--darkLightColor);
+  padding: 10px 25px;
+  width: 150px;
+}
+
+/* Calculate your BMI */
+.bmi_form_container {
+}
+.bmi_form_title {
+  font-weight: var(--interBlack);
+  font-size: 1.75rem;
+  line-height: 120%;
+  color: var(--lightColor);
+}
+.bmi_form_description {
+  line-height: 171%;
+  margin: 15px 0px 35px;
+}
+
+.bmi_form {
+  max-width: 580px;
+  /* border: 1px solid red; */
+}
+.input_field {
+  display: flex;
+
+  gap: 15px;
+}
+.input_field input,
+.sex {
+  width: 280px;
+  margin-bottom: 12px;
+}
+.input_field input,
+.sex,
+.activity_factor {
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: var(--darkLightColor);
+}
+.activity_factor {
+  max-width: 580px;
+  width: 100%;
+}
+.input_field option {
+  background-color: #393939;
+  color: var(--darkLightColor);
+}
+.selected {
+  display: none;
+}
+
+.calculate {
+  padding: 16px 50px;
+  margin-top: 35px;
+}
+
+/* BMI Calculator section styles ended */
+
 /* Team section styles started */
 #team_section {
   max-width: 1440px;
@@ -437,7 +556,7 @@ body {
 }
 /* Footer section styles ended */
 
-/* Responsive header section started */
+/* Responsive Design */
 @media screen and (max-width: 576px) {
   /* Header section styles started */
   /* navbar */
@@ -602,4 +721,3 @@ body {
     flex-direction: column;
   }
 }
-/* Responsive header section started */
