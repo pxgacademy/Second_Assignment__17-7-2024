@@ -444,7 +444,6 @@ body {
 }
 
 .recipe_container {
-  /* border: 1px solid red; */
   background-color: var(--darkColor2);
   padding: 20px;
   box-sizing: border-box;
@@ -494,7 +493,7 @@ body {
   width: 30%;
 }
 
-.recipe_card p{
+.recipe_card p {
   cursor: pointer;
 }
 
@@ -749,57 +748,6 @@ body {
     height: auto;
   }
 
-  /* Team section styles started */
-  #team_section {
-    max-width: 100%;
-    padding: 65px 20px 65px;
-  }
-  .team_content {
-    max-width: 100%;
-  }
-
-  .team_content h2 {
-    font-size: 2rem;
-  }
-
-  .team_items {
-    width: 100%;
-    margin-top: 50px;
-    grid-template-columns: 1fr;
-  }
-  .team_card {
-    width: 100%;
-    height: auto;
-  }
-
-  .team_card_content {
-    bottom: 10px;
-    left: 15px;
-  }
-
-  /* footer section */
-  #footer_section {
-    padding-top: 30px;
-  }
-
-  .footer_container {
-    padding: 20px;
-  }
-
-  .footer_content {
-    flex-direction: column;
-  }
-
-  .footer_box1 {
-    width: 100%;
-  }
-
-  .footer_box2 {
-    width: 100%;
-    gap: 50px;
-    flex-direction: column;
-  }
-
   /* BMI Calculator section styles started */
   #bmi_clc_section {
     padding-top: 35px;
@@ -855,5 +803,85 @@ body {
   .sex,
   .activity_factor {
     padding: 12px 15px;
+  }
+
+  /* Recipes section */
+
+  #recipe_section {
+    padding: 60px 20px 0px;
+  }
+
+  #recipe_title {
+    font-size: 1.8rem;
+  }
+
+  .recipe_container {
+    grid-template-columns: 1fr;
+  }
+
+  .recipe_main {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .recipe_main img {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .recipe_content h4 {
+    font-size: 1.2rem;
+  }
+
+  /* Team section styles started */
+  #team_section {
+    max-width: 100%;
+    padding: 65px 20px 65px;
+  }
+  .team_content {
+    max-width: 100%;
+  }
+
+  .team_content h2 {
+    font-size: 2rem;
+  }
+
+  .team_items {
+    width: 100%;
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+  }
+  .team_card {
+    width: 100%;
+    height: auto;
+  }
+
+  .team_card_content {
+    bottom: 10px;
+    left: 15px;
+  }
+
+  /* footer section */
+  #footer_section {
+    padding-top: 30px;
+  }
+
+  .footer_container {
+    padding: 20px;
+  }
+
+  .footer_content {
+    flex-direction: column;
+  }
+
+  .footer_box1 {
+    width: 100%;
+  }
+
+  .footer_box2 {
+    width: 100%;
+    gap: 50px;
+    flex-direction: column;
   }
 }
